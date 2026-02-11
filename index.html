@@ -1,97 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Вкусно — и точка | Roblox</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <style>
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #111;
-            color: white;
-            text-align: center;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #0f0f0f;
+            color: #eaeaea;
         }
 
         header {
-            background: red;
-            padding: 25px;
-            font-size: 28px;
-            font-weight: bold;
+            background-color: #1a1a1a;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #222;
         }
 
-        .section {
-            padding: 40px 20px;
+        header h1 {
+            margin: 0;
+            font-size: 20px;
+            font-weight: 500;
+            letter-spacing: 1px;
         }
 
-        .card {
-            background: #222;
-            padding: 20px;
-            margin: 15px;
-            border-radius: 10px;
-            display: inline-block;
-            width: 200px;
-        }
-
-        .button {
-            background: yellow;
-            color: black;
-            padding: 15px 30px;
+        nav a {
+            color: #ccc;
             text-decoration: none;
-            font-weight: bold;
-            border-radius: 8px;
-            display: inline-block;
-            margin-top: 20px;
-        }
-
-        .button:hover {
-            opacity: 0.9;
-        }
-
-        footer {
-            margin-top: 40px;
-            padding: 20px;
-            background: #000;
+            margin-left: 25px;
             font-size: 14px;
         }
-    </style>
-</head>
-<body>
 
-<header>
-🍔 Вкусно — и точка | Roblox
-</header>
+        nav a:hover {
+            color: #fff;
+        }
 
-<div class="section">
-    <h2>Добро пожаловать!</h2>
-    <p>Официальный сайт нашего ресторана в Roblox</p>
-</div>
-
-<div class="section">
-    <h2>Меню</h2>
-
-    <div class="card">
-        <h3>Бургер</h3>
-        <p>50 R$</p>
-    </div>
-
-    <div class="card">
-        <h3>Картошка</h3>
-        <p>25 R$</p>
-    </div>
-
-    <div class="card">
-        <h3>Кола</h3>
-        <p>15 R$</p>
-    </div>
-</div>
-
-<div class="section">
-    <a href="job.html" class="button">📋 Подать заявку на работу</a>
-</div>
-
-<footer>
-© 2026 Вкусно — и точка Roblox | Фан-проект
-</footer>
-
-</body>
-</html>
+        .hero {
+            padding: 100px 20px;
+            text-align: center;
