@@ -43,3 +43,131 @@
         .hero {
             padding: 100px 20px;
             text-align: center;
+            background: linear-gradient(to bottom, #111, #0f0f0f);
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            color: #aaa;
+            font-size: 16px;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 14px 28px;
+            background-color: #b30000;
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            border-radius: 4px;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background-color: #e60000;
+        }
+
+        .section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: #1a1a1a;
+            padding: 25px;
+            width: 220px;
+            border: 1px solid #222;
+            border-radius: 6px;
+            text-align: center;
+        }
+
+        .card h3 {
+            margin: 10px 0;
+            font-weight: 500;
+        }
+
+        .price {
+            color: #b30000;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #111;
+            text-align: center;
+            padding: 30px;
+            font-size: 13px;
+            color: #777;
+            border-top: 1px solid #222;
+        }
+
+        @media (max-width: 768px) {
+            .menu {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .hero h2 {
+                font-size: 26px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>ВКУСНО — И ТОЧКА | ROBLOX</h1>
+    <nav>
+        <a href="#">Главная</a>
+        <a href="job.html">Карьера</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Официальный сайт ресторана в Roblox</h2>
+    <p>Корпоративный фан-проект игрового ресторана</p>
+    <a href="job.html" class="button">Подать заявку</a>
+</section>
+
+<section class="section">
+    <h2 style="text-align:center; font-weight:500;">Меню</h2>
+
+    <div class="menu">
+        <div class="card">
+            <h3>Классический бургер</h3>
+            <p class="price">50 R$</p>
+        </div>
+
+        <div class="card">
+            <h3>Картофель фри</h3>
+            <p class="price">25 R$</p>
+        </div>
+
+        <div class="card">
+            <h3>Газированный напиток</h3>
+            <p class="price">15 R$</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+© 2026 Вкусно — и точка Roblox  
+Фан-проект. Не является официальным сайтом.
+</footer>
+
+</body>
+</html>
